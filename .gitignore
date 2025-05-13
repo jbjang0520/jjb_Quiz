@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
 *.env
-.env.*
+# .env.* 임의로 .env파일 추가가
 poetry.lock
 *.sqlite3
