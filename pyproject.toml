@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "fastapi-quiz-system"
+version = "0.1.0"
+description = "A quiz system built with FastAPI"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.104.1"
+uvicorn = "^0.21.0"  # 최신 안정 버전으로 맞추기
+sqlalchemy = "^1.4.35"  # 안정적인 버전 사용 권장
+pydantic = "^2.4.2"
+psycopg2 = "^2.9.9"
+alembic = "^1.10.3"     # alembic 버전 체크
+python-jose = "^3.3.0"
+passlib = "^1.7.4"
+bcrypt = "3.2.0"
+python-multipart = "^0.0.6"
+email-validator = "^2.1.0.post1"
+redis = "^5.0.1"
+pydantic-settings = "^2.0.3"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+black = "^23.10.1"
+isort = "^5.12.0"
+mypy = "^1.6.1"
+pytest-cov = "^4.1.0"
+httpx = "^0.25.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+
+[[tool.mypy.overrides]]
+module = ["sqlalchemy.*", "jose.*", "passlib.*", "redis.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"

@@ -1,0 +1,294 @@
+{
+    "quizzes": [
+      {
+        "title": "한국 역사 퀴즈",
+        "description": "한국의 주요 역사적 사건과 인물에 대한 테스트입니다.",
+        "questions_per_quiz": 10,
+        "randomize_questions": true,
+        "randomize_options": true,
+        "questions": [
+          {
+            "content": "삼국 시대에 존재하지 않았던 국가는?",
+            "options": [
+              {"content": "백제", "is_correct": false},
+              {"content": "신라", "is_correct": false},
+              {"content": "고구려", "is_correct": false},
+              {"content": "조선", "is_correct": true}
+            ]
+          },
+          {
+            "content": "한글을 창제한 왕은?",
+            "options": [
+              {"content": "세종대왕", "is_correct": true},
+              {"content": "태종", "is_correct": false},
+              {"content": "광해군", "is_correct": false},
+              {"content": "정조", "is_correct": false}
+            ]
+          },
+          {
+            "content": "임진왜란이 발생한 시기는?",
+            "options": [
+              {"content": "16세기", "is_correct": true},
+              {"content": "14세기", "is_correct": false},
+              {"content": "18세기", "is_correct": false},
+              {"content": "20세기", "is_correct": false}
+            ]
+          },
+          {
+            "content": "고려 시대의 수도는?",
+            "options": [
+              {"content": "개성", "is_correct": true},
+              {"content": "서울", "is_correct": false},
+              {"content": "부산", "is_correct": false},
+              {"content": "대구", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 독립운동가 중 하나인 안중근 의사가 암살한 인물은?",
+            "options": [
+              {"content": "이토 히로부미", "is_correct": true},
+              {"content": "도쿠가와 이에야스", "is_correct": false},
+              {"content": "메이지 천황", "is_correct": false},
+              {"content": "오다 노부나가", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국 전쟁이 발생한 연도는?",
+            "options": [
+              {"content": "1950년", "is_correct": true},
+              {"content": "1945년", "is_correct": false},
+              {"content": "1960년", "is_correct": false},
+              {"content": "1970년", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 첫 번째 대통령은?",
+            "options": [
+              {"content": "이승만", "is_correct": true},
+              {"content": "박정희", "is_correct": false},
+              {"content": "김대중", "is_correct": false},
+              {"content": "노무현", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 명절 중 추석은 몇 월에 있는가?",
+            "options": [
+              {"content": "8월", "is_correct": true},
+              {"content": "1월", "is_correct": false},
+              {"content": "5월", "is_correct": false},
+              {"content": "12월", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 집 구조를 무엇이라고 하는가?",
+            "options": [
+              {"content": "한옥", "is_correct": true},
+              {"content": "아파트", "is_correct": false},
+              {"content": "빌라", "is_correct": false},
+              {"content": "오피스텔", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 의복은?",
+            "options": [
+              {"content": "한복", "is_correct": true},
+              {"content": "양복", "is_correct": false},
+              {"content": "정장", "is_correct": false},
+              {"content": "유니폼", "is_correct": false}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "대한민국 일반 상식 퀴즈",
+        "description": "대한민국의 정치, 지리, 상징 등에 대한 상식 퀴즈입니다.",
+        "questions_per_quiz": 20,
+        "randomize_questions": true,
+        "randomize_options": true,
+        "questions": [
+          {
+            "content": "대한민국의 수도는 어디인가?",
+            "options": [
+              {"content": "서울", "is_correct": true},
+              {"content": "부산", "is_correct": false},
+              {"content": "인천", "is_correct": false},
+              {"content": "대전", "is_correct": false}
+            ]
+          },
+          {
+            "content": "태극기의 중앙 원은 어떤 뜻인가요?",
+            "options": [
+              {"content": "음양의 조화", "is_correct": true},
+              {"content": "자유와 평등", "is_correct": false},
+              {"content": "왕권 상징", "is_correct": false},
+              {"content": "산과 바다", "is_correct": false},
+              {"content": "전통 의복", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 음식 중 김치는 어떤 재료로 만들어지는가?",
+            "options": [
+              {"content": "배추", "is_correct": true},
+              {"content": "무", "is_correct": false},
+              {"content": "오이", "is_correct": false},
+              {"content": "당근", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 주류는?",
+            "options": [
+              {"content": "소주", "is_correct": true},
+              {"content": "맥주", "is_correct": false},
+              {"content": "와인", "is_correct": false},
+              {"content": "위스키", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 스포츠는?",
+            "options": [
+              {"content": "태권도", "is_correct": true},
+              {"content": "축구", "is_correct": false},
+              {"content": "야구", "is_correct": false},
+              {"content": "농구", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 음악 장르는?",
+            "options": [
+              {"content": "판소리", "is_correct": true},
+              {"content": "팝", "is_correct": false},
+              {"content": "락", "is_correct": false},
+              {"content": "재즈", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 놀이 중 하나인 연날리기는 어떤 계절에 하는가?",
+            "options": [
+              {"content": "겨울", "is_correct": true},
+              {"content": "봄", "is_correct": false},
+              {"content": "여름", "is_correct": false},
+              {"content": "가을", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 집 구조에서 마루는 어떤 역할을 하는가?",
+            "options": [
+              {"content": "휴식 공간", "is_correct": true},
+              {"content": "주방", "is_correct": false},
+              {"content": "침실", "is_correct": false},
+              {"content": "화장실", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 의복인 한복은 주로 어떤 재료로 만들어지는가?",
+            "options": [
+              {"content": "비단", "is_correct": true},
+              {"content": "면", "is_correct": false},
+              {"content": "울", "is_correct": false},
+              {"content": "린넨", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 음악 악기 중 하나인 거문고는 어떤 악기인가?",
+            "options": [
+              {"content": "현악기", "is_correct": true},
+              {"content": "타악기", "is_correct": false},
+              {"content": "관악기", "is_correct": false},
+              {"content": "건반 악기", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 놀이 중 하나인 장기는 어떤 종류인가?",
+            "options": [
+              {"content": "보드 게임", "is_correct": true},
+              {"content": "카드 게임", "is_correct": false},
+              {"content": "스포츠", "is_correct": false},
+              {"content": "퍼즐", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 음식 중 비빔밥은 어떤 재료로 만들어지는가?",
+            "options": [
+              {"content": "쌀", "is_correct": true},
+              {"content": "밀가루", "is_correct": false},
+              {"content": "감자", "is_correct": false},
+              {"content": "고구마", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 음악 중 하나인 아리랑은 어떤 주제를 다루는가?",
+            "options": [
+              {"content": "이별", "is_correct": true},
+              {"content": "사랑", "is_correct": false},
+              {"content": "전쟁", "is_correct": false},
+              {"content": "평화", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 놀이 중 하나인 제기차기는 어떤 도구를 사용하는가?",
+            "options": [
+              {"content": "제기", "is_correct": true},
+              {"content": "공", "is_correct": false},
+              {"content": "줄", "is_correct": false},
+              {"content": "막대기", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 음식 중 불고기는 어떤 재료로 만들어지는가?",
+            "options": [
+              {"content": "소고기", "is_correct": true},
+              {"content": "닭고기", "is_correct": false},
+              {"content": "돼지고기", "is_correct": false},
+              {"content": "생선", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 음악 중 하나인 사물놀이는 어떤 악기를 사용하는가?",
+            "options": [
+              {"content": "북", "is_correct": true},
+              {"content": "피아노", "is_correct": false},
+              {"content": "기타", "is_correct": false},
+              {"content": "플룻", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 음식 중 삼겹살은 어떤 재료로 만들어지는가?",
+            "options": [
+              {"content": "돼지고기", "is_correct": true},
+              {"content": "소고기", "is_correct": false},
+              {"content": "닭고기", "is_correct": false},
+              {"content": "생선", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국의 전통적인 음식 중 된장찌개는 어떤 재료로 만들어지는가?",
+            "options": [
+              {"content": "된장", "is_correct": true},
+              {"content": "고추장", "is_correct": false},
+              {"content": "간장", "is_correct": false},
+              {"content": "소금", "is_correct": false}
+            ]
+          },
+          {
+            "content": "다음 중 전통 한국 악기는?",
+            "options": [
+              {"content": "가야금", "is_correct": true},
+              {"content": "바이올린", "is_correct": false},
+              {"content": "기타", "is_correct": false},
+              {"content": "색소폰", "is_correct": false}
+            ]
+          },
+          {
+            "content": "한국 전통 무용 중 하나는?",
+            "options": [
+              {"content": "부채춤", "is_correct": true},
+              {"content": "탱고", "is_correct": false},
+              {"content": "왈츠", "is_correct": false},
+              {"content": "살사", "is_correct": false},
+              {"content": "현대무용", "is_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  }
